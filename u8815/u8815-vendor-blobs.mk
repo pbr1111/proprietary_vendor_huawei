@@ -29,8 +29,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8815/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/huawei/u8815/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/huawei/u8815/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
-    vendor/huawei/u8815/proprietary/lib/libcm_0.so:system/lib/libcm_0.so \
-    vendor/huawei/u8815/proprietary/lib/libcm_1.so:system/lib/libcm_1.so \
+    vendor/huawei/u8815/proprietary/lib/libcm.so:system/lib/libcm.so \
     vendor/huawei/u8815/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/huawei/u8815/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/huawei/u8815/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
