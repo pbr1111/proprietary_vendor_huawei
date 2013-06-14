@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8815/proprietary/bin/rild:system/bin/rild \
     vendor/huawei/u8815/proprietary/bin/rmt_oeminfo:system/bin/rmt_oeminfo \
     vendor/huawei/u8815/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/huawei/u8815/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd \
     vendor/huawei/u8815/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/huawei/u8815/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/huawei/u8815/proprietary/lib/libcm.so:system/lib/libcm.so \
