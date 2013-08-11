@@ -48,6 +48,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8833/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
 	vendor/huawei/u8833/proprietary/lib/libadc.so:system/lib/libadc.so \
     vendor/huawei/u8833/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
+    vendor/huawei/u8833/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so \
     vendor/huawei/u8833/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
 	vendor/huawei/u8833/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/huawei/u8833/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
