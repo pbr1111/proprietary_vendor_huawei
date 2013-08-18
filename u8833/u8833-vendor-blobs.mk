@@ -17,6 +17,8 @@
 PRODUCT_COPY_FILES += \
     vendor/huawei/u8833/proprietary/bin/akmd8963:system/bin/akmd8963 \
     vendor/huawei/u8833/proprietary/bin/akmd8975:system/bin/akmd8975 \
+	vendor/huawei/u8833/proprietary/bin/atserver:system/bin/atserver \
+    vendor/huawei/u8833/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
 	vendor/huawei/u8833/proprietary/bin/gps_check:system/bin/gps_check \
     vendor/huawei/u8833/proprietary/bin/load_oemlogo:system/bin/load_oemlogo \
     vendor/huawei/u8833/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
@@ -25,12 +27,12 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8833/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/huawei/u8833/proprietary/bin/thermald:system/bin/thermald \
     vendor/huawei/u8833/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
-	vendor/huawei/u8833/proprietary/bin/hciattach:system/bin/hciattach \
 	vendor/huawei/u8833/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/huawei/u8833/proprietary/bin/load_oemlogo:system/bin/load_oemlogo \
     vendor/huawei/u8833/proprietary/bin/modempre:system/bin/modempre \
     vendor/huawei/u8833/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/huawei/u8833/proprietary/bin/oem_rpc_svc:system/bin/oem_rpc_svc \
+	vendor/huawei/u8833/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/huawei/u8833/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/huawei/u8833/proprietary/bin/rild:system/bin/rild \
     vendor/huawei/u8833/proprietary/bin/rmt_oeminfo:system/bin/rmt_oeminfo \
@@ -115,7 +117,6 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8833/proprietary/lib/libmmirunning.so:system/lib/libmmirunning.so \
     vendor/huawei/u8833/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
     vendor/huawei/u8833/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-	vendor/huawei/u8833/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/huawei/u8833/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/huawei/u8833/proprietary/lib/libmvs.so:system/lib/libmvs.so \
     vendor/huawei/u8833/proprietary/lib/libnl_2.so:system/lib/libnl_2.so \
@@ -132,7 +133,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8833/proprietary/lib/libOmxAdpcmDec.so:system/lib/libOmxAdpcmDec.so \
     vendor/huawei/u8833/proprietary/lib/libOmxAmrDec.so:system/lib/libOmxAmrDec.so \
     vendor/huawei/u8833/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
-	vendor/huawei/u8833/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
     vendor/huawei/u8833/proprietary/lib/libOmxAmrRtpDec.so:system/lib/libOmxAmrRtpDec.so \
     vendor/huawei/u8833/proprietary/lib/libOmxAmrwbDec.so:system/lib/libOmxAmrwbDec.so \
     vendor/huawei/u8833/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
@@ -175,4 +175,5 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8833/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/huawei/u8833/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
 	vendor/huawei/u8833/proprietary/lib/libwvm.so:system/lib/libwvm.so \
-    vendor/huawei/u8833/proprietary/lib/libzy_imgdenoise.so:system/lib/libzy_imgdenoise.so
+    vendor/huawei/u8833/proprietary/lib/libzy_imgdenoise.so:system/lib/libzy_imgdenoise.so \
+	vendor/huawei/u8833/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so
