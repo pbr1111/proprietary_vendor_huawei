@@ -22,7 +22,7 @@ PRODUCT_COPY_FILES += \
    	vendor/huawei/u8833/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
 	vendor/huawei/u8833/proprietary/bin/cnd:system/bin/cnd \
 	vendor/huawei/u8833/proprietary/bin/gps_check:system/bin/gps_check \
-    vendor/huawei/u8833/proprietary/bin/gpu_dcsvd:system/bin/gpu_dcvsd \
+    vendor/huawei/u8833/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd \
 	vendor/huawei/u8833/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
 	vendor/huawei/u8833/proprietary/bin/hostapd:system/bin/hostapd \
 	vendor/huawei/u8833/proprietary/bin/load_oemlogo:system/bin/load_oemlogo \
