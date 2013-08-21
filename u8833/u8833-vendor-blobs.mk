@@ -43,7 +43,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8833/proprietary/bin/write_NV_114:system/bin/write_NV_114 \
 	vendor/huawei/u8833/proprietary/etc/firmware/ath6k/load/caldata.bin:system/etc/firmware/ath6k/load/caldata.bin \
     vendor/huawei/u8833/proprietary/etc/firmware/ath6k/athtcmd_ram.bin:system/etc/firmware/ath6k/athtcmd_ram.bin \
-    vendor/huawei/u8833/proprietary/etc/firmware/ath6k/caldata.bin:system/etc/firmware/ath6k/caldata.bin \
+    vendor/huawei/u8833/proprietary/etc/firmware/ath6k/bdata.SD31.bin:system/etc/firmware/ath6k/bdata.SD31.bin \
+	vendor/huawei/u8833/proprietary/etc/firmware/ath6k/caldata.bin:system/etc/firmware/ath6k/caldata.bin \
 	vendor/huawei/u8833/proprietary/etc/firmware/ath6k/fw-3.bin:system/etc/firmware/ath6k/fw-3.bin \
 	vendor/huawei/u8833/proprietary/etc/firmware/ath6k/nullTestFlow.bin:system/etc/firmware/ath6k/nullTestFlow.bin \
 	vendor/huawei/u8833/proprietary/etc/firmware/ath6k/softmac:system/etc/firmware/ath6k/softmac \
