@@ -169,6 +169,8 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8833/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/huawei/u8833/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/huawei/u8833/proprietary/lib/libqmi.so:system/lib/libqmi.so \
+	vendor/huawei/u8833/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
+    vendor/huawei/u8833/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
     vendor/huawei/u8833/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/huawei/u8833/proprietary/lib/libqueue.so:system/lib/libqueue.so \
     vendor/huawei/u8833/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
