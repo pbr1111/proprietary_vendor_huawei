@@ -182,4 +182,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8833/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/huawei/u8833/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
 	vendor/huawei/u8833/proprietary/lib/libxml.so:system/lib/libxml.so \
-	vendor/huawei/u8833/proprietary/lib/libzy_imgdenoise.so:system/lib/libzy_imgdenoise.so
+	vendor/huawei/u8833/proprietary/lib/libzy_imgdenoise.so:system/lib/libzy_imgdenoise.so \
+	vendor/huawei/u8833/proprietary/nv/MSM8X25_U8833-1/nv_ext.bin:system/nv/MSM8X25_U8833-1/nv_ext.bin \
+	vendor/huawei/u8833/proprietary/nv/MSM8X25_U8833-1/nv_ext_FTY.bin:system/nv/MSM8X25_U8833-1/nv_ext_FTY.bin \
+	vendor/huawei/u8833/proprietary/nv/MSM8X25_U8951-1/nv_ext.bin:system/nv/MSM8X25_U8951-1/nv_ext.bin \
+	vendor/huawei/u8833/proprietary/nv/MSM8X25_U8951-1/nv_ext_FTY.bin:system/nv/MSM8X25_U8951-1/nv_ext_FTY.bin
