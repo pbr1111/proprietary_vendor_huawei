@@ -79,6 +79,7 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8833/proprietary/lib/libchromatix_s5k4e1_f_default_video.so:system/lib/libchromatix_s5k4e1_default_video.so \
     vendor/huawei/u8833/proprietary/lib/libchromatix_s5k4e1_f_preview.so:system/lib/libchromatix_s5k4e1_f_preview.so \
 	vendor/huawei/u8833/proprietary/lib/libchromatix_s5k4e1_preview.so:system/lib/libchromatix_s5k4e1_preview.so \
+	vendor/huawei/u8833/proprietary/lib/libcm.so:system/lib/libcm.so \
 	vendor/huawei/u8833/proprietary/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
     vendor/huawei/u8833/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/huawei/u8833/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
