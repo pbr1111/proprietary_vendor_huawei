@@ -189,4 +189,10 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8833/proprietary/nv/MSM8X25_U8833-1/nv_ext.bin:system/nv/MSM8X25_U8833-1/nv_ext.bin \
 	vendor/huawei/u8833/proprietary/nv/MSM8X25_U8833-1/nv_ext_FTY.bin:system/nv/MSM8X25_U8833-1/nv_ext_FTY.bin \
 	vendor/huawei/u8833/proprietary/nv/MSM8X25_U8951-1/nv_ext.bin:system/nv/MSM8X25_U8951-1/nv_ext.bin \
-	vendor/huawei/u8833/proprietary/nv/MSM8X25_U8951-1/nv_ext_FTY.bin:system/nv/MSM8X25_U8951-1/nv_ext_FTY.bin
+	vendor/huawei/u8833/proprietary/nv/MSM8X25_U8951-1/nv_ext_FTY.bin:system/nv/MSM8X25_U8951-1/nv_ext_FTY.bin \
+vendor/huawei/u8833/proprietary/bin/qosmgr:system/bin/qosmgr \
+vendor/huawei/u8833/proprietary/bin/mpdecision:system/bin/mpdecision \
+vendor/huawei/u8833/proprietary/lib/libdualsimswitch.so:system/lib/libdualsimswitch.so \
+vendor/huawei/u8833/proprietary/lib/libvoem_if.so:system/lib/libvoem_if.so \
+vendor/huawei/u8833/proprietary/lib/libwidevine.so:system/lib/libwidevine.so \
+vendor/huawei/u8833/proprietary/lib/qnet-plugin.so:system/lib/qnet-plugin.so
