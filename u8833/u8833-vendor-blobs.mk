@@ -195,4 +195,18 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8833/proprietary/lib/libwidevine.so:system/lib/libwidevine.so \
     vendor/huawei/u8833/proprietary/lib/qnet-plugin.so:system/lib/qnet-plugin.so \
     vendor/huawei/u8833/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so
+	
+	# Workaround
+	PRODUCT_COPY_FILES += \
+	vendor/huawei/u8833/proprietary/lib/hw/copybit.msm7x27a.so:system/lib/hw/copybit.msm7x27a.so \
+	vendor/huawei/u8833/proprietary/lib/hw/gralloc.msm7x27a.so:system/lib/hw/gralloc.msm7x27a.so \
+	vendor/huawei/u8833/proprietary/lib/hw/hwcomposer.msm7x27a.so:system/lib/hw/hwcomposer.msm7x27a.so \
+	vendor/huawei/u8833/proprietary/lib/libgenlock.so:system/lib/libgenlock.so \
+	vendor/huawei/u8833/proprietary/lib/libmemalloc.so:system/lib/libmemalloc.so \
+	vendor/huawei/u8833/proprietary/lib/liboverlay.so:system/lib/liboverlay.so \
+	vendor/huawei/u8833/proprietary/lib/libqdutils.so:system/lib/libqdutils.so \
+	vendor/huawei/u8833/proprietary/lib/libtilerenderer.so:system/lib/libtilerenderer.so
+	
+	
+	
 
