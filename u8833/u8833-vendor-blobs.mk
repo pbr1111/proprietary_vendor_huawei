@@ -80,10 +80,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8833/proprietary/lib/libchromatix_s5k4e1_f_preview.so:system/lib/libchromatix_s5k4e1_f_preview.so \
 	vendor/huawei/u8833/proprietary/lib/libchromatix_s5k4e1_preview.so:system/lib/libchromatix_s5k4e1_preview.so \
 	vendor/huawei/u8833/proprietary/lib/libcm.so:system/lib/libcm.so \
-	vendor/huawei/u8833/proprietary/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
-    vendor/huawei/u8833/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
-    vendor/huawei/u8833/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
-    vendor/huawei/u8833/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
 	vendor/huawei/u8833/proprietary/lib/libcommondefs.so:system/lib/libcommondefs.so \
     vendor/huawei/u8833/proprietary/lib/libcontrast.so:system/lib/libcontrast.so \
     vendor/huawei/u8833/proprietary/lib/libdiag.so:system/lib/libdiag.so \
@@ -195,17 +191,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8833/proprietary/lib/libwidevine.so:system/lib/libwidevine.so \
     vendor/huawei/u8833/proprietary/lib/qnet-plugin.so:system/lib/qnet-plugin.so \
     vendor/huawei/u8833/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so
-	
-	# Workaround
-	PRODUCT_COPY_FILES += \
-	vendor/huawei/u8833/proprietary/lib/hw/copybit.msm7x27a.so:system/lib/hw/copybit.msm7x27a.so \
-	vendor/huawei/u8833/proprietary/lib/hw/gralloc.msm7x27a.so:system/lib/hw/gralloc.msm7x27a.so \
-	vendor/huawei/u8833/proprietary/lib/hw/hwcomposer.msm7x27a.so:system/lib/hw/hwcomposer.msm7x27a.so \
-	vendor/huawei/u8833/proprietary/lib/libgenlock.so:system/lib/libgenlock.so \
-	vendor/huawei/u8833/proprietary/lib/libmemalloc.so:system/lib/libmemalloc.so \
-	vendor/huawei/u8833/proprietary/lib/liboverlay.so:system/lib/liboverlay.so \
-	vendor/huawei/u8833/proprietary/lib/libqdutils.so:system/lib/libqdutils.so \
-	vendor/huawei/u8833/proprietary/lib/libtilerenderer.so:system/lib/libtilerenderer.so
 	
 	
 	
