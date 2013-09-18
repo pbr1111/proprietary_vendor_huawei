@@ -23,7 +23,6 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8833/proprietary/bin/gps_check:system/bin/gps_check \
     vendor/huawei/u8833/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd \
 	vendor/huawei/u8833/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-	vendor/huawei/u8833/proprietary/bin/hostapd:system/bin/hostapd \
 	vendor/huawei/u8833/proprietary/bin/load_oemlogo:system/bin/load_oemlogo \
     vendor/huawei/u8833/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/huawei/u8833/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
@@ -40,15 +39,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8833/proprietary/bin/thermald:system/bin/thermald \
     vendor/huawei/u8833/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
     vendor/huawei/u8833/proprietary/bin/write_NV_114:system/bin/write_NV_114 \
-	vendor/huawei/u8833/proprietary/etc/firmware/ath6k/load/caldata.bin:system/etc/firmware/ath6k/load/caldata.bin \
-    vendor/huawei/u8833/proprietary/etc/firmware/ath6k/athtcmd_ram.bin:system/etc/firmware/ath6k/athtcmd_ram.bin \
-    vendor/huawei/u8833/proprietary/etc/firmware/ath6k/bdata.SD31.bin:system/etc/firmware/ath6k/bdata.SD31.bin \
-	vendor/huawei/u8833/proprietary/etc/firmware/ath6k/caldata.bin:system/etc/firmware/ath6k/caldata.bin \
-	vendor/huawei/u8833/proprietary/etc/firmware/ath6k/fw-3.bin:system/etc/firmware/ath6k/fw-3.bin \
-	vendor/huawei/u8833/proprietary/etc/firmware/ath6k/nullTestFlow.bin:system/etc/firmware/ath6k/nullTestFlow.bin \
-	vendor/huawei/u8833/proprietary/etc/firmware/ath6k/softmac:system/etc/firmware/ath6k/softmac \
-	vendor/huawei/u8833/proprietary/etc/firmware/ath6k/utf.bin:system/etc/firmware/ath6k/utf.bin \
-	vendor/huawei/u8833/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
+    vendor/huawei/u8833/proprietary/bin/wlan_detect:system/bin/wlan_detect \
+    vendor/huawei/u8833/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/huawei/u8833/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/huawei/u8833/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/huawei/u8833/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
@@ -57,8 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8833/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/huawei/u8833/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/camera.msm7x27a.so \
     vendor/huawei/u8833/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
-	vendor/huawei/u8833/proprietary/lib/modules/ar6000.ko:system/lib/modules/ar6000.ko \
-	vendor/huawei/u8833/proprietary/lib/modules/cfg80211.ko:system/lib/modules/cfg80211.ko \
 	vendor/huawei/u8833/proprietary/lib/libadc.so:system/lib/libadc.so \
 	vendor/huawei/u8833/proprietary/lib/liballjoyn.so:system/lib/liballjoyn.so \
 	vendor/huawei/u8833/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so \
@@ -190,7 +180,26 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8833/proprietary/lib/libvoem_if.so:system/lib/libvoem_if.so \
     vendor/huawei/u8833/proprietary/lib/libwidevine.so:system/lib/libwidevine.so \
     vendor/huawei/u8833/proprietary/lib/qnet-plugin.so:system/lib/qnet-plugin.so \
-    vendor/huawei/u8833/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so
+    vendor/huawei/u8833/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
+    vendor/huawei/u8833/proprietary/wifi/ath6k/athtcmd_ram.bin:system/wifi/ath6k/athtcmd_ram.bin \
+    vendor/huawei/u8833/proprietary/wifi/ath6k/caldata.bin:system/wifi/ath6k/caldata.bin \
+    vendor/huawei/u8833/proprietary/wifi/ath6k/caldata_MSM8X25_C8812E.bin:system/wifi/ath6k/caldata_MSM8X25_C8812E.bin \
+    vendor/huawei/u8833/proprietary/wifi/ath6k/caldata_MSM8X25_C8812P.bin:system/wifi/ath6k/caldata_MSM8X25_C8812P.bin \
+    vendor/huawei/u8833/proprietary/wifi/ath6k/caldata_MSM8X25_C8813.bin:system/wifi/ath6k/caldata_MSM8X25_C8813.bin \
+    vendor/huawei/u8833/proprietary/wifi/ath6k/caldata_MSM8X25_C8825D.bin:system/wifi/ath6k/caldata_MSM8X25_C8825D.bin \
+    vendor/huawei/u8833/proprietary/wifi/ath6k/caldata_MSM8X25_C8833D.bin:system/wifi/ath6k/caldata_MSM8X25_C8833D.bin \
+    vendor/huawei/u8833/proprietary/wifi/ath6k/caldata_MSM8X25_U8833.bin:system/wifi/ath6k/caldata_MSM8X25_U8833.bin \
+    vendor/huawei/u8833/proprietary/wifi/ath6k/caldata_MSM8X25_U8833-1.bin:system/wifi/ath6k/caldata_MSM8X25_U8833-1.bin \
+    vendor/huawei/u8833/proprietary/wifi/ath6k/caldata_MSM8X25_U8833-51.bin:system/wifi/ath6k/caldata_MSM8X25_U8833-51.bin \
+    vendor/huawei/u8833/proprietary/wifi/ath6k/caldata_MSM8X25_U8833D.bin:system/wifi/ath6k/caldata_MSM8X25_U8833D.bin \
+    vendor/huawei/u8833/proprietary/wifi/ath6k/caldata_MSM8X25_U8951.bin:system/wifi/ath6k/caldata_MSM8X25_U8951.bin \
+    vendor/huawei/u8833/proprietary/wifi/ath6k/caldata_MSM8X25_U8951-1.bin:system/wifi/ath6k/caldata_MSM8X25_U8951-1.bin \
+    vendor/huawei/u8833/proprietary/wifi/ath6k/caldata_MSM8X25_U8951-51.bin:system/wifi/ath6k/caldata_MSM8X25_U8951-51.bin \
+    vendor/huawei/u8833/proprietary/wifi/ath6k/caldata_MSM8X25_U8951D.bin:system/wifi/ath6k/caldata_MSM8X25_U8951D.bin \
+	vendor/huawei/u8833/proprietary/wifi/ath6k/fw-3.bin:system/wifi/ath6k/fw-3.bin \
+	vendor/huawei/u8833/proprietary/wifi/ath6k/nullTestFlow.bin:system/wifi/ath6k/nullTestFlow.bin \
+	vendor/huawei/u8833/proprietary/wifi/ath6k/softmac:system/wifi/ath6k/softmac \
+	vendor/huawei/u8833/proprietary/wifi/ath6k/utf.bin:system/wifi/ath6k/utf.bin 
 	
 	
 	
