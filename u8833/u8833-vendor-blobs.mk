@@ -27,12 +27,14 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8833/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/huawei/u8833/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/huawei/u8833/proprietary/bin/modempre:system/bin/modempre \
+	vendor/huawei/u8833/proprietary/bin/mpdecision:system/bin/mpdecision \
 	vendor/huawei/u8833/proprietary/bin/netmgrd:system/bin/netmgrd \
 	vendor/huawei/u8833/proprietary/bin/nvext:system/bin/nvext \
 	vendor/huawei/u8833/proprietary/bin/oem_rpc_svc:system/bin/oem_rpc_svc \
 	vendor/huawei/u8833/proprietary/bin/port-bridge:system/bin/port-bridge \
 	vendor/huawei/u8833/proprietary/bin/qmiproxy:system/bin/qmiproxy \
 	vendor/huawei/u8833/proprietary/bin/qmuxd:system/bin/qmuxd \
+	vendor/huawei/u8833/proprietary/bin/qosmgr:system/bin/qosmgr \
 	vendor/huawei/u8833/proprietary/bin/rild:system/bin/rild \
 	vendor/huawei/u8833/proprietary/bin/rmt_oeminfo:system/bin/rmt_oeminfo \
     vendor/huawei/u8833/proprietary/bin/rmt_storage:system/bin/rmt_storage \
@@ -40,7 +42,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8833/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
     vendor/huawei/u8833/proprietary/bin/write_NV_114:system/bin/write_NV_114 \
     vendor/huawei/u8833/proprietary/bin/wlan_detect:system/bin/wlan_detect \
-    vendor/huawei/u8833/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
+	vendor/huawei/u8833/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/huawei/u8833/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/huawei/u8833/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/huawei/u8833/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
@@ -80,6 +82,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8833/proprietary/lib/libdsprofile.so:system/lib/libdsprofile.so \
     vendor/huawei/u8833/proprietary/lib/libdss.so:system/lib/libdss.so \
 	vendor/huawei/u8833/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
+	vendor/huawei/u8833/proprietary/lib/libdualsimswitch.so:system/lib/libdualsimswitch.so \
     vendor/huawei/u8833/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/huawei/u8833/proprietary/lib/libgesture_client.so:system/lib/libgesture_client.so \
     vendor/huawei/u8833/proprietary/lib/libgestureservice.so:system/lib/libgestureservice.so \
@@ -89,6 +92,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8833/proprietary/lib/libgstk_exp.so:system/lib/libgstk_exp.so \
     vendor/huawei/u8833/proprietary/lib/libhwnv.so:obj/lib/libhwnv.so \
     vendor/huawei/u8833/proprietary/lib/libhwrpc.so:system/lib/libhwrpc.so \
+	vendor/huawei/u8833/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/huawei/u8833/proprietary/lib/libidl.so:system/lib/libidl.so \
 	vendor/huawei/u8833/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
 	vendor/huawei/u8833/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
@@ -116,6 +120,7 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8833/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/huawei/u8833/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
 	vendor/huawei/u8833/proprietary/lib/libnl_2.so:system/lib/libnl_2.so \
+	vendor/huawei/u8833/proprietary/lib/libnv.so:obj/lib/libnv.so \
 	vendor/huawei/u8833/proprietary/lib/libnv.so:system/lib/libnv.so \
     vendor/huawei/u8833/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
     vendor/huawei/u8833/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
@@ -146,7 +151,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8833/proprietary/lib/libOmxVp8Dec.so:system/lib/libOmxVp8Dec.so \
     vendor/huawei/u8833/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
     vendor/huawei/u8833/proprietary/lib/libOmxWmvDec.so:system/lib/libOmxWmvDec.so \
-    vendor/huawei/u8833/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
+    vendor/huawei/u8833/proprietary/lib/liboncrpc.so:obj/lib/liboncrpc.so \
+	vendor/huawei/u8833/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
     vendor/huawei/u8833/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/huawei/u8833/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
 	vendor/huawei/u8833/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
@@ -166,21 +172,25 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8833/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/huawei/u8833/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/huawei/u8833/proprietary/lib/libuim.so:system/lib/libuim.so \
+	vendor/huawei/u8833/proprietary/lib/libvoem_if.so:system/lib/libvoem_if.so \
+    vendor/huawei/u8833/proprietary/lib/libwidevine.so:system/lib/libwidevine.so \
     vendor/huawei/u8833/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/huawei/u8833/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
 	vendor/huawei/u8833/proprietary/lib/libxml.so:system/lib/libxml.so \
 	vendor/huawei/u8833/proprietary/lib/libzy_imgdenoise.so:system/lib/libzy_imgdenoise.so \
+	vendor/huawei/u8833/proprietary/lib/qnet-plugin.so:system/lib/qnet-plugin.so \
 	vendor/huawei/u8833/proprietary/nv/MSM8X25_U8833-1/nv_ext.bin:system/nv/MSM8X25_U8833-1/nv_ext.bin \
 	vendor/huawei/u8833/proprietary/nv/MSM8X25_U8833-1/nv_ext_FTY.bin:system/nv/MSM8X25_U8833-1/nv_ext_FTY.bin \
+	vendor/huawei/u8833/proprietary/nv/MSM8X25_U8833-51/nv_ext.bin:system/nv/MSM8X25_U8833-51/nv_ext.bin \
+	vendor/huawei/u8833/proprietary/nv/MSM8X25_U8833-51/nv_ext_FTY.bin:system/nv/MSM8X25_U8833-51/nv_ext_FTY.bin \
+	vendor/huawei/u8833/proprietary/nv/MSM8X25_U8833D/nv_ext.bin:system/nv/MSM8X25_U8833D/nv_ext.bin \
+	vendor/huawei/u8833/proprietary/nv/MSM8X25_U8833D/nv_ext_FTY.bin:system/nv/MSM8X25_U8833D/nv_ext_FTY.bin \
 	vendor/huawei/u8833/proprietary/nv/MSM8X25_U8951-1/nv_ext.bin:system/nv/MSM8X25_U8951-1/nv_ext.bin \
 	vendor/huawei/u8833/proprietary/nv/MSM8X25_U8951-1/nv_ext_FTY.bin:system/nv/MSM8X25_U8951-1/nv_ext_FTY.bin \
-    vendor/huawei/u8833/proprietary/bin/qosmgr:system/bin/qosmgr \
-    vendor/huawei/u8833/proprietary/bin/mpdecision:system/bin/mpdecision \
-    vendor/huawei/u8833/proprietary/lib/libdualsimswitch.so:system/lib/libdualsimswitch.so \
-    vendor/huawei/u8833/proprietary/lib/libvoem_if.so:system/lib/libvoem_if.so \
-    vendor/huawei/u8833/proprietary/lib/libwidevine.so:system/lib/libwidevine.so \
-    vendor/huawei/u8833/proprietary/lib/qnet-plugin.so:system/lib/qnet-plugin.so \
-    vendor/huawei/u8833/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
+	vendor/huawei/u8833/proprietary/nv/MSM8X25_U8951-51/nv_ext.bin:system/nv/MSM8X25_U8951-51/nv_ext.bin \
+	vendor/huawei/u8833/proprietary/nv/MSM8X25_U8951-51/nv_ext_FTY.bin:system/nv/MSM8X25_U8951-51/nv_ext_FTY.bin \
+	vendor/huawei/u8833/proprietary/nv/MSM8X25_U8951D/nv_ext.bin:system/nv/MSM8X25_U8951D/nv_ext.bin \
+	vendor/huawei/u8833/proprietary/nv/MSM8X25_U8951D/nv_ext_FTY.bin:system/nv/MSM8X25_U8951D/nv_ext_FTY.bin \
     vendor/huawei/u8833/proprietary/wifi/ath6k/athtcmd_ram.bin:system/wifi/ath6k/athtcmd_ram.bin \
     vendor/huawei/u8833/proprietary/wifi/ath6k/caldata.bin:system/wifi/ath6k/caldata.bin \
     vendor/huawei/u8833/proprietary/wifi/ath6k/caldata_MSM8X25_C8812E.bin:system/wifi/ath6k/caldata_MSM8X25_C8812E.bin \
@@ -200,7 +210,3 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8833/proprietary/wifi/ath6k/nullTestFlow.bin:system/wifi/ath6k/nullTestFlow.bin \
 	vendor/huawei/u8833/proprietary/wifi/ath6k/softmac:system/wifi/ath6k/softmac \
 	vendor/huawei/u8833/proprietary/wifi/ath6k/utf.bin:system/wifi/ath6k/utf.bin 
-	
-	
-	
-
