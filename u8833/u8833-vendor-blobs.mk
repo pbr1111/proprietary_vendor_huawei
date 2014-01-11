@@ -63,6 +63,29 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8833/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/huawei/u8833/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
     vendor/huawei/u8833/proprietary/lib/libauth.so:system/lib/libauth.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_hi542_default_video.so:system/lib/libchromatix_hi542_default_video.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_hi542_preview.so:system/lib/libchromatix_hi542_preview.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_imx074_default_video.so:system/lib/libchromatix_imx074_default_video.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_imx074_preview.so:system/lib/libchromatix_imx074_preview.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_imx074_video_hd.so:system/lib/libchromatix_imx074_video_hd.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_imx074_zsl.so:system/lib/libchromatix_imx074_zsl.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_imx091_default_video.so:system/lib/libchromatix_imx091_default_video.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_imx091_preview.so:system/lib/libchromatix_imx091_preview.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_imx091_video_hd.so:system/lib/libchromatix_imx091_video_hd.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_imx105_sunny_default_video.so:system/lib/libchromatix_imx105_sunny_default_video.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_imx105_sunny_preview.so:system/lib/libchromatix_imx105_sunny_preview.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_mt9e013_default_video.so:system/lib/libchromatix_mt9e013_default_video.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_mt9e013_preview.so:system/lib/libchromatix_mt9e013_preview.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_mt9e013_sunny_default_video.so:system/lib/libchromatix_mt9e013_sunny_default_video.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_mt9e013_sunny_preview.so:system/lib/libchromatix_mt9e013_sunny_preview.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_mt9e013_sunny_video_hfr.so:system/lib/libchromatix_mt9e013_sunny_video_hfr.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_mt9e013_video_hfr.so:system/lib/libchromatix_mt9e013_video_hfr.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_mt9p017_default_video.so:system/lib/libchromatix_mt9p017_default_video.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_mt9p017_preview.so:system/lib/libchromatix_mt9p017_preview.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_ov2720_default_video.so:system/lib/libchromatix_ov2720_default_video.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_ov2720_hfr.so:system/lib/libchromatix_ov2720_hfr.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_ov2720_preview.so:system/lib/libchromatix_ov2720_preview.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_ov2720_zsl.so:system/lib/libchromatix_ov2720_zsl.so \
     vendor/huawei/u8833/proprietary/lib/libchromatix_ov5647_default_video.so:system/lib/libchromatix_ov5647_default_video.so \
     vendor/huawei/u8833/proprietary/lib/libchromatix_ov5647_ff_default_video.so:system/lib/libchromatix_ov5647_ff_default_video.so \
     vendor/huawei/u8833/proprietary/lib/libchromatix_ov5647_ff_preview.so:system/lib/libchromatix_ov5647_ff_preview.so \
@@ -71,14 +94,30 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8833/proprietary/lib/libchromatix_ov5647_video_hfr.so:system/lib/libchromatix_ov5647_video_hfr.so \
     vendor/huawei/u8833/proprietary/lib/libchromatix_ov5647_y300_default_video.so:system/lib/libchromatix_ov5647_y300_default_video.so \
     vendor/huawei/u8833/proprietary/lib/libchromatix_ov5647_y300_preview.so:system/lib/libchromatix_ov5647_y300_preview.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_ov8825_default_video.so:system/lib/libchromatix_ov8825_default_video.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_ov8825_preview.so:system/lib/libchromatix_ov8825_preview.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_ov9726_default_video.so:system/lib/libchromatix_ov9726_default_video.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_ov9726_preview.so:system/lib/libchromatix_ov9726_preview.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_s5k3h2_default_video.so:system/lib/libchromatix_s5k3h2_default_video.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_s5k3h2_preview.so:system/lib/libchromatix_s5k3h2_preview.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_s5k3l1yx_default_video.so:system/lib/libchromatix_s5k3l1yx_default_video.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_s5k3l1yx_hfr_120fps.so:system/lib/libchromatix_s5k3l1yx_hfr_120fps.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_s5k3l1yx_hfr_60fps.so:system/lib/libchromatix_s5k3l1yx_hfr_60fps.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_s5k3l1yx_hfr_90fps.so:system/lib/libchromatix_s5k3l1yx_hfr_90fps.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_s5k3l1yx_preview.so:system/lib/libchromatix_s5k3l1yx_preview.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_s5k3l1yx_video_hd.so:system/lib/libchromatix_s5k3l1yx_video_hd.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_s5k3l1yx_zsl.so:system/lib/libchromatix_s5k3l1yx_zsl.so \
     vendor/huawei/u8833/proprietary/lib/libchromatix_s5k4e1_3_default_video.so:system/lib/libchromatix_s5k4e1_3_default_video.so \
     vendor/huawei/u8833/proprietary/lib/libchromatix_s5k4e1_3_preview.so:system/lib/libchromatix_s5k4e1_3_preview.so \
     vendor/huawei/u8833/proprietary/lib/libchromatix_s5k4e1_3_y300_default_video.so:system/lib/libchromatix_s5k4e1_3_y300_default_video.so \
     vendor/huawei/u8833/proprietary/lib/libchromatix_s5k4e1_3_y300_preview.so:system/lib/libchromatix_s5k4e1_3_y300_preview.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_s5k4e1_ar.so:system/lib/libchromatix_s5k4e1_ar.so \
     vendor/huawei/u8833/proprietary/lib/libchromatix_s5k4e1_default_video.so:system/lib/libchromatix_s5k4e1_default_video.so \
-    vendor/huawei/u8833/proprietary/lib/libchromatix_s5k4e1_f_default_video.so:system/lib/libchromatix_s5k4e1_default_video.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_s5k4e1_f_default_video.so:system/lib/libchromatix_s5k4e1_f_default_video.so \
     vendor/huawei/u8833/proprietary/lib/libchromatix_s5k4e1_f_preview.so:system/lib/libchromatix_s5k4e1_f_preview.so \
     vendor/huawei/u8833/proprietary/lib/libchromatix_s5k4e1_preview.so:system/lib/libchromatix_s5k4e1_preview.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_vx6953_default_video.so:system/lib/libchromatix_vx6953_default_video.so \
+    vendor/huawei/u8833/proprietary/lib/libchromatix_vx6953_preview.so:system/lib/libchromatix_vx6953_preview.so \
     vendor/huawei/u8833/proprietary/lib/libcm.so:system/lib/libcm.so \
     vendor/huawei/u8833/proprietary/lib/libcommondefs.so:system/lib/libcommondefs.so \
     vendor/huawei/u8833/proprietary/lib/libcontrast.so:system/lib/libcontrast.so \
