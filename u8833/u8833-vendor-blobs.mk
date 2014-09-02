@@ -51,6 +51,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8833/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/huawei/u8833/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/huawei/u8833/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/camera.msm7x27a.so \
+    vendor/huawei/u8833/proprietary/lib/hw/lights.msm7x27a.so:system/lib/hw/lights.msm7x27a.so \
     vendor/huawei/u8833/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/huawei/u8833/proprietary/lib/libadc.so:system/lib/libadc.so \
     vendor/huawei/u8833/proprietary/lib/liballjoyn.so:system/lib/liballjoyn.so \
