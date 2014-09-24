@@ -42,8 +42,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8833/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/huawei/u8833/proprietary/bin/thermald:system/bin/thermald \
     vendor/huawei/u8833/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
-    vendor/huawei/u8833/proprietary/bin/wpa_cli:system/bin/wpa_cli \
-    vendor/huawei/u8833/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
     vendor/huawei/u8833/proprietary/bin/write_NV_114:system/bin/write_NV_114 \
     vendor/huawei/u8833/proprietary/bin/wlan_detect:system/bin/wlan_detect \
     vendor/huawei/u8833/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
@@ -225,35 +223,4 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8833/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
     vendor/huawei/u8833/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/huawei/u8833/proprietary/lib/libzy_imgdenoise.so:system/lib/libzy_imgdenoise.so \
-    vendor/huawei/u8833/proprietary/lib/qnet-plugin.so:system/lib/qnet-plugin.so \
-    vendor/huawei/u8833/proprietary/nv/MSM8X25_U8833-1/nv_ext.bin:system/nv/MSM8X25_U8833-1/nv_ext.bin \
-    vendor/huawei/u8833/proprietary/nv/MSM8X25_U8833-1/nv_ext_FTY.bin:system/nv/MSM8X25_U8833-1/nv_ext_FTY.bin \
-    vendor/huawei/u8833/proprietary/nv/MSM8X25_U8833-51/nv_ext.bin:system/nv/MSM8X25_U8833-51/nv_ext.bin \
-    vendor/huawei/u8833/proprietary/nv/MSM8X25_U8833-51/nv_ext_FTY.bin:system/nv/MSM8X25_U8833-51/nv_ext_FTY.bin \
-    vendor/huawei/u8833/proprietary/nv/MSM8X25_U8833D/nv_ext.bin:system/nv/MSM8X25_U8833D/nv_ext.bin \
-    vendor/huawei/u8833/proprietary/nv/MSM8X25_U8833D/nv_ext_FTY.bin:system/nv/MSM8X25_U8833D/nv_ext_FTY.bin \
-    vendor/huawei/u8833/proprietary/nv/MSM8X25_U8951-1/nv_ext.bin:system/nv/MSM8X25_U8951-1/nv_ext.bin \
-    vendor/huawei/u8833/proprietary/nv/MSM8X25_U8951-1/nv_ext_FTY.bin:system/nv/MSM8X25_U8951-1/nv_ext_FTY.bin \
-    vendor/huawei/u8833/proprietary/nv/MSM8X25_U8951-51/nv_ext.bin:system/nv/MSM8X25_U8951-51/nv_ext.bin \
-    vendor/huawei/u8833/proprietary/nv/MSM8X25_U8951-51/nv_ext_FTY.bin:system/nv/MSM8X25_U8951-51/nv_ext_FTY.bin \
-    vendor/huawei/u8833/proprietary/nv/MSM8X25_U8951D/nv_ext.bin:system/nv/MSM8X25_U8951D/nv_ext.bin \
-    vendor/huawei/u8833/proprietary/nv/MSM8X25_U8951D/nv_ext_FTY.bin:system/nv/MSM8X25_U8951D/nv_ext_FTY.bin \
-    vendor/huawei/u8833/proprietary/wifi/ath6k/athtcmd_ram.bin:system/wifi/ath6k/athtcmd_ram.bin \
-    vendor/huawei/u8833/proprietary/wifi/ath6k/caldata.bin:system/wifi/ath6k/caldata.bin \
-    vendor/huawei/u8833/proprietary/wifi/ath6k/caldata_MSM8X25_C8812E.bin:system/wifi/ath6k/caldata_MSM8X25_C8812E.bin \
-    vendor/huawei/u8833/proprietary/wifi/ath6k/caldata_MSM8X25_C8812P.bin:system/wifi/ath6k/caldata_MSM8X25_C8812P.bin \
-    vendor/huawei/u8833/proprietary/wifi/ath6k/caldata_MSM8X25_C8813.bin:system/wifi/ath6k/caldata_MSM8X25_C8813.bin \
-    vendor/huawei/u8833/proprietary/wifi/ath6k/caldata_MSM8X25_C8825D.bin:system/wifi/ath6k/caldata_MSM8X25_C8825D.bin \
-    vendor/huawei/u8833/proprietary/wifi/ath6k/caldata_MSM8X25_C8833D.bin:system/wifi/ath6k/caldata_MSM8X25_C8833D.bin \
-    vendor/huawei/u8833/proprietary/wifi/ath6k/caldata_MSM8X25_U8833.bin:system/wifi/ath6k/caldata_MSM8X25_U8833.bin \
-    vendor/huawei/u8833/proprietary/wifi/ath6k/caldata_MSM8X25_U8833-1.bin:system/wifi/ath6k/caldata_MSM8X25_U8833-1.bin \
-    vendor/huawei/u8833/proprietary/wifi/ath6k/caldata_MSM8X25_U8833-51.bin:system/wifi/ath6k/caldata_MSM8X25_U8833-51.bin \
-    vendor/huawei/u8833/proprietary/wifi/ath6k/caldata_MSM8X25_U8833D.bin:system/wifi/ath6k/caldata_MSM8X25_U8833D.bin \
-    vendor/huawei/u8833/proprietary/wifi/ath6k/caldata_MSM8X25_U8951.bin:system/wifi/ath6k/caldata_MSM8X25_U8951.bin \
-    vendor/huawei/u8833/proprietary/wifi/ath6k/caldata_MSM8X25_U8951-1.bin:system/wifi/ath6k/caldata_MSM8X25_U8951-1.bin \
-    vendor/huawei/u8833/proprietary/wifi/ath6k/caldata_MSM8X25_U8951-51.bin:system/wifi/ath6k/caldata_MSM8X25_U8951-51.bin \
-    vendor/huawei/u8833/proprietary/wifi/ath6k/caldata_MSM8X25_U8951D.bin:system/wifi/ath6k/caldata_MSM8X25_U8951D.bin \
-    vendor/huawei/u8833/proprietary/wifi/ath6k/fw-3.bin:system/wifi/ath6k/fw-3.bin \
-    vendor/huawei/u8833/proprietary/wifi/ath6k/nullTestFlow.bin:system/wifi/ath6k/nullTestFlow.bin \
-    vendor/huawei/u8833/proprietary/wifi/ath6k/softmac:system/wifi/ath6k/softmac \
-    vendor/huawei/u8833/proprietary/wifi/ath6k/utf.bin:system/wifi/ath6k/utf.bin 
+    vendor/huawei/u8833/proprietary/lib/qnet-plugin.so:system/lib/qnet-plugin.so
